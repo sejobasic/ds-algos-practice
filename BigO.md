@@ -1,7 +1,6 @@
 ----Big O Cheat Sheet----
 
 -Big Os-
-
 O(1) Constant- no loops
 
 O(log N) Logarithmic- usually searching algos have log(n) if they are sorted (Binary Search) (not on hash maps)
@@ -14,7 +13,7 @@ O(n^2) Quadratic- every element in a collection needs to be compared to every ot
 
 O(2^N) Exponential- recursive algorithms that solve a problem of size N
 
-O(n!) - You are adding a loop for every element
+O(n!) - Factorial- You are adding a loop for every element
 
 
 **Iterating through half a collection is still O(n)
@@ -28,13 +27,18 @@ Looping (for, while)
 Outside function call (function())
 
 -Rule Book-
-
 Rule 1: Always worst case
 Rule 2: Remove constants
 Rule 3: Different inputs should have different variables. O(a+b). A and B arrays nested would be O(a*b)
     * for steps in order
     * for nested steps
 Rule 4: Drop Non-dominant terms
+
+-What causes Space Complexity-
+Variables
+Data Structures
+Function Call
+Allocations
 
 
 
