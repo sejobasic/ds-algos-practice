@@ -3,8 +3,9 @@
 
 // create an empty array to store the pairs
 // Compare each number in the array with one another to find the pair
+// We use a nested loop to test every possible combination of numbers within the array
 // If the compared numbers are equal to the target
-// add the pairs to the empty array and return array
+// push the pairs to the empty array and return array
 
 // Brute force non efficient approach O(n^2)
 function twoSum(nums, target) {
