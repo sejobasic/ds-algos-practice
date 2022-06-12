@@ -9,8 +9,8 @@
 function charCount(str) {
   let result = {}
 
-  for (let i = 0; i < str.length; i ++) {
-    let char = str[i].toLowerCase()
+  for (char of str) {
+    char = char.toLowerCase()
     if (result[char] > 0) {
       result[char]++
     } else {
