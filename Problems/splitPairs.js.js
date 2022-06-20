@@ -15,6 +15,6 @@ function splitPairs(input) {
   for (var i = 0; i < input.length; i += 2) {	// iterate over input string by 2
     pairs.push(input[i] + input[i+1])	// push input at index + input at index plus 1 into result arr
   }
-  return pairs; // return pair array
+  return pairs -1; // return pair array
 }
 splitPairs('harry')
