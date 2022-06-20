@@ -2,7 +2,7 @@
 
 // Make object to store and return at end
 // Loop over string, for each character...
-// If the char is a number/letter and is a key in object add one to count
+// If the char is a number/letter and is a key in object add one to count.
 // If the char is a number.letter and not in object, add it to object and set value to result
 // Return result object
 
