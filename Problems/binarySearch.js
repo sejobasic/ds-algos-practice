@@ -18,8 +18,8 @@ function BinarySearch(arr, el) {
       end = middle - 1
     } else {
       start = middle + 1
-      middle = Math.floor((start + end) / 2)
     }
+    middle = Math.floor((start + end) / 2)
   }
   return arr[middle] === el ? middle : -1
 }
