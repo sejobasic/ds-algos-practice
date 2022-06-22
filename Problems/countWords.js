@@ -1,7 +1,7 @@
 // Use an Object to count words in a sentence
-// Given a string (words separated by spaces)
+// Given a string (words separated by spaces).
 // "countWords" returns an object where each key 
-// is a word in the given string, with its value being 
+// is a word in the given string, with its value being
 // how many times that word appeared in the given string. 
 // If given an empty string, your function should return an empty object.
 
