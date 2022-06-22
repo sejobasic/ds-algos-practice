@@ -2,7 +2,7 @@
 // This function will iterate over the object's values 
 // and attempt to locate the target value. 
 // If the value is found, the function should return the name of the key 
-// where the value in question is located 
+// where the value in question is located . 
 // if not found, the function should return -1.
 
 function keyOfObjectValue(object, target) {
